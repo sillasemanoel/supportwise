@@ -1,5 +1,5 @@
-// styles
-import { SeparationOrStyle } from './style'
+// Styles
+import { SeparationOrStyle } from "./style";
 
 export default function SeparationOrComponent() {
   return (
@@ -8,5 +8,6 @@ export default function SeparationOrComponent() {
       <p>ou</p>
       <div></div>
     </SeparationOrStyle>
-  )
+  );
 }
+

@@ -1,5 +1,5 @@
-// dependencies
-import styled from 'styled-components'
+// Dependencies
+import styled from "styled-components";
 
 export const LoginStyle = styled.section`
   position: fixed;
@@ -14,7 +14,8 @@ export const LoginStyle = styled.section`
     width: 1300px;
     height: 650px;
     border-radius: 6px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     display: flex;
   }
 
@@ -35,7 +36,7 @@ export const LoginStyle = styled.section`
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: center;
     padding: 60px 70px;
   }
 
@@ -83,12 +84,16 @@ export const LoginStyle = styled.section`
     border-radius: 2px;
   }
 
-  .treatment .options label:hover input~span {
+  .treatment .options label:hover input ~ span {
     background-color: #e7e7e7;
   }
 
-  .treatment .options label input:checked~span {
-    background: linear-gradient(90deg, rgba(99, 175, 242, 1) 0%, rgba(97, 92, 251, 1) 100%);
+  .treatment .options label input:checked ~ span {
+    background: linear-gradient(
+      90deg,
+      rgba(99, 175, 242, 1) 0%,
+      rgba(97, 92, 251, 1) 100%
+    );
   }
 
   .treatment .options label span:after {
@@ -106,7 +111,7 @@ export const LoginStyle = styled.section`
     transform: rotate(45deg);
   }
 
-  .treatment .options label input:checked~span:after {
+  .treatment .options label input:checked ~ span:after {
     display: block;
   }
 
@@ -115,9 +120,15 @@ export const LoginStyle = styled.section`
     font-family: var(--font-family-secondary);
     font-size: 14px;
     font-weight: 700;
-    background: linear-gradient(90deg, rgba(99, 176, 243, 1) 0%, rgba(90, 87, 255, 1) 75%, rgba(160, 147, 244, 1) 100%);
+    background: linear-gradient(
+      90deg,
+      rgba(99, 176, 243, 1) 0%,
+      rgba(90, 87, 255, 1) 75%,
+      rgba(160, 147, 244, 1) 100%
+    );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     cursor: pointer;
   }
-`
+`;
+

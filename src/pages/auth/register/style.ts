@@ -1,5 +1,5 @@
-// dependencies
-import styled from 'styled-components'
+// Dependencies
+import styled from "styled-components";
 
 export const RegisterStyle = styled.section`
   position: fixed;
@@ -14,7 +14,8 @@ export const RegisterStyle = styled.section`
     width: 1300px;
     height: 650px;
     border-radius: 6px;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+      rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
     display: flex;
   }
 
@@ -35,7 +36,7 @@ export const RegisterStyle = styled.section`
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: center;
     padding: 60px 70px;
   }
 
@@ -59,10 +60,11 @@ export const RegisterStyle = styled.section`
   }
 
   .successfulRegistration {
-    margin-top: 10px;
+    margin-bottom: 30px;
     font-family: var(--font-family-secondary);
     font-weight: 700;
     font-size: 15px;
+    text-align: center;
     color: #000;
   }
 
@@ -110,4 +112,5 @@ export const RegisterStyle = styled.section`
     font-size: 15px;
     color: #000;
   }
-`
+`;
+

@@ -1,5 +1,5 @@
-// dependencies
-import styled from 'styled-components'
+// Dependencies
+import styled from "styled-components";
 
 export const ReturnToLoginStyle = styled.div`
   margin-top: 50px;
@@ -23,4 +23,4 @@ export const ReturnToLoginStyle = styled.div`
     color: #6a697d;
     margin: 0;
   }
-`
+`;

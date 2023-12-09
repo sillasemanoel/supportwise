@@ -1,5 +1,5 @@
-// dependencies
-import styled from 'styled-components'
+// Dependencies
+import styled from "styled-components";
 
 export const DescriptionStyle = styled.div`
   margin-top: 10px;
@@ -18,4 +18,4 @@ export const DescriptionStyle = styled.div`
     color: #6a697d;
     margin: 5px 0 0 0;
   }
-`
+`;

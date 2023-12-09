@@ -1,5 +1,5 @@
-// dependencies
-import styled from "styled-components"
+// Dependencies
+import styled from "styled-components";
 
 export const SeparationOrStyle = styled.div`
   display: flex;
@@ -19,4 +19,4 @@ export const SeparationOrStyle = styled.div`
     color: #9d9d9d;
     font-size: 16px;
   }
-`
+`;

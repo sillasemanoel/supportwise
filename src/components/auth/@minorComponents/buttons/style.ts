@@ -1,5 +1,5 @@
-// dependencies
-import styled from 'styled-components'
+// Dependencies
+import styled from "styled-components";
 
 export const ColoredButtonStyle = styled.div`
   button {
@@ -12,11 +12,16 @@ export const ColoredButtonStyle = styled.div`
     font-size: 15px;
     font-weight: 700;
     color: #fff;
-    background: linear-gradient(90deg, rgba(99, 176, 243, 1) 0%, rgba(97, 92, 251, 1) 73%, rgba(160, 147, 244, 1) 100%);
-    outline:none;
+    background: linear-gradient(
+      90deg,
+      rgba(99, 176, 243, 1) 0%,
+      rgba(97, 92, 251, 1) 73%,
+      rgba(160, 147, 244, 1) 100%
+    );
+    outline: none;
     cursor: pointer;
   }
-`
+`;
 export const SimpleButtonStyle = styled.div`
   button {
     width: 100%;
@@ -29,7 +34,8 @@ export const SimpleButtonStyle = styled.div`
     font-weight: 700;
     color: #000;
     background: #fff;
-    outline:none;
+    outline: none;
     cursor: pointer;
   }
-`
+`;
+

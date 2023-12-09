@@ -1,15 +1,11 @@
-// styles
-import { SimpleButtonStyle } from './style'
+// Styles
+import { SimpleButtonStyle } from "./style";
 
 type GreetProps = {
-  children: React.ReactNode
-}
+  children: React.ReactNode;
+};
 
 export default function SimpleButtonComponent(props: GreetProps) {
-
-  return (
-    <SimpleButtonStyle>
-      {props.children}
-    </SimpleButtonStyle>
-  )
+  return <SimpleButtonStyle>{props.children}</SimpleButtonStyle>;
 }
+

@@ -1,15 +1,11 @@
-// styles
-import { ColoredButtonStyle } from './style'
+// Styles
+import { ColoredButtonStyle } from "./style";
 
 type GreetProps = {
-  children: React.ReactNode
-}
+  children: React.ReactNode;
+};
 
 export default function ColoredButtonComponent(props: GreetProps) {
-
-  return (
-    <ColoredButtonStyle>
-      {props.children}
-    </ColoredButtonStyle>
-  )
+  return <ColoredButtonStyle>{props.children}</ColoredButtonStyle>;
 }
+

@@ -1,10 +1,15 @@
-// dependencies
-import styled from 'styled-components'
+// Dependencies
+import styled from "styled-components";
 
 export const PresentationStyle = styled.div`
   width: 50%;
   height: 100%;
-  background: linear-gradient(90deg, rgba(224, 192, 253, 1) 0%, rgba(106, 186, 253, 1) 72%, rgba(166, 187, 253, 1) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(224, 192, 253, 1) 0%,
+    rgba(106, 186, 253, 1) 72%,
+    rgba(166, 187, 253, 1) 100%
+  );
   border-radius: 6px 0px 0px 6px;
   flex: none;
   display: flex;
@@ -19,7 +24,12 @@ export const PresentationStyle = styled.div`
     width: 350px;
     height: 350px;
     padding: 30px 40px;
-    background: linear-gradient(90deg, rgba(255, 255, 255, 0.17) 0%, rgba(255, 255, 255, 0.17) 35%, rgba(255, 255, 255, 0.17) 100%);
+    background: linear-gradient(
+      90deg,
+      rgba(255, 255, 255, 0.17) 0%,
+      rgba(255, 255, 255, 0.17) 35%,
+      rgba(255, 255, 255, 0.17) 100%
+    );
     border: 1px solid rgba(255, 255, 255, 0.15);
     border-radius: 3px;
     box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
@@ -41,7 +51,7 @@ export const PresentationStyle = styled.div`
     display: flex;
   }
 
-  .ghostPresentation ul li span{
+  .ghostPresentation ul li span {
     margin: 0;
     font-size: 56px;
     color: #fff;
@@ -63,10 +73,10 @@ export const PresentationStyle = styled.div`
     justify-content: space-between;
   }
 
-  .ghostPresentation div span{
+  .ghostPresentation div span {
     font-family: var(--font-family-secondary);
     font-size: 16px;
     font-weight: 600;
     color: #fff;
   }
-`
+`;

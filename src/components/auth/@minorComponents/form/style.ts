@@ -1,5 +1,5 @@
-// dependencies
-import styled from 'styled-components'
+// Dependencies
+import styled from "styled-components";
 
 export const FormStyle = styled.div`
   margin-top: 10px;
@@ -37,12 +37,8 @@ export const FormStyle = styled.div`
     outline: 0;
   }
 
-  input[type=number]::-webkit-inner-spin-button {
+  input[type="number"]::-webkit-inner-spin-button {
     -webkit-appearance: none;
-
   }
-  /* input[type=number] {
-    -moz-appearance: textfield;
-    appearance: textfield;
-  } */
-`
+`;
+

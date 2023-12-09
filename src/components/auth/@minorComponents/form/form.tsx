@@ -1,11 +1,11 @@
-// styles
-import { FormStyle } from './style'
+// Styles
+import { FormStyle } from "./style";
 
 type GreetProps = {
-  title: string,
-  error: React.ReactNode,
-  children: React.ReactNode
-}
+  title: string;
+  error: React.ReactNode;
+  children: React.ReactNode;
+};
 
 export default function FormComponent(props: GreetProps) {
   return (
@@ -16,5 +16,5 @@ export default function FormComponent(props: GreetProps) {
       </div>
       {props.children}
     </FormStyle>
-  )
+  );
 }

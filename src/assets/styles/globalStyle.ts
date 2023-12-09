@@ -1,9 +1,8 @@
-// dependencies
-import { createGlobalStyle } from 'styled-components'
-
-// fonts
-import Wix from '../fonts/wixmadefordisplay/wixmadefordisplay.ttf'
-import Coolvetica from '../fonts/coolvetica/coolveticarg.ttf'
+// Dependencies
+import { createGlobalStyle } from "styled-components";
+// Fonts
+import Wix from "../fonts/wixmadefordisplay/wixmadefordisplay.ttf";
+import Coolvetica from "../fonts/coolvetica/coolveticarg.ttf";
 
 export const GlobalStyle = createGlobalStyle`
   @font-face {
@@ -36,15 +35,13 @@ export const GlobalStyle = createGlobalStyle`
     outline:none;
   }
 
-  .under_development {
-    position: fixed;
-    bottom: 30px;
-    right: 30px;
-    padding: 10px;
-    border-radius: 5px;
-    background-color: #ff3f3c;
-    font-family: var(--font-family-primary);
-    color: #fff;
+  .miniature {
+    width: 1300px;
+    height: 650px;
+    border-radius: 6px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    display: flex;
+    background-color: #fff;
   }
 
   ::-webkit-scrollbar {
@@ -61,4 +58,4 @@ export const GlobalStyle = createGlobalStyle`
     background-color: #fff;
     border-radius: 20px;
   }
-`
+`;
