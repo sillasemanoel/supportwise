@@ -23,8 +23,7 @@ export const HomeStyle = styled.section`
   }
 
   img {
-    width: 60px;
-    height: 60px;
+    width: 45px;
   }
 
   p {
